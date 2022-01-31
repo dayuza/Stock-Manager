@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_weight="1"
+    android:background="#96C1FC"
+    android:orientation="vertical"
+    android:padding="10dp">
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="10sp"
+        android:background="#90BEFD">
+
+        <TextView
+            android:id="@+id/tv_kode_barang"
+            android:layout_width="0dp"
+            android:layout_column="1"
+            android:layout_weight="4"
+            android:gravity="center_horizontal"
+            android:padding="10sp"
+            android:textColor="@android:color/white"
+            android:textSize="14sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tv_nama_barang"
+            android:layout_width="0dp"
+            android:layout_column="2"
+            android:layout_weight="2"
+            android:gravity="center_horizontal"
+            android:padding="10sp"
+            android:textColor="@android:color/white"
+            android:textSize="14sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tv_jumlah_barang"
+            android:layout_width="0dp"
+            android:layout_column="3"
+            android:layout_weight="4"
+            android:gravity="center_horizontal"
+            android:padding="10sp"
+            android:textColor="@android:color/white"
+            android:textSize="14sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tv_harga_barang"
+            android:layout_width="0dp"
+            android:layout_column="4"
+            android:layout_weight="4"
+            android:gravity="center_horizontal"
+            android:padding="10sp"
+            android:textColor="@android:color/white"
+            android:textSize="14sp"
+            android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tv_delete"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="10dp"
+                android:text="delete"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/tv_edit"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="10dp"
+                android:text="edit"
+                android:textSize="14sp" />
+    </TableRow>
+</TableLayout>
